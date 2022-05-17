@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>questionário</title>
+<script language="Javascript" src="Resultado.js"></script>
+
+</head>
+
+<body bgcolor="#FFCC00" text="#0000FF" onload="id()">
+
+    <form name="formulario">
+    
+    Nome :    <input type="text" name="txtnome" size="30"><br>
+    e-mail :   <input type="text" name="txtmail" size="20"><br>
+    Acertos : <input type="text" name="txtcertos" size="4">
+    Erros : <input type="text" name="txterros" size="4"><br>
+    <input type="button" name="BTENVIAR" value="Enviar" onclick="Enviar()" <hr="">
+    
+    <h2><center>Responda as Questões</center></h2><hr>
+    
+    1) Para formar uma determinada cor, misturam-se, entre si, cores específicas. Assinale a opção que
+    corresponde à afirmativa correta. <br>
+    <input type="radio" name="op1" onclick="verifica1(0)" value="A">A) Violeta, verde e laranja são cores pigmento primárias. <br>
+    <input type="radio" name="op2" onclick="verifica1(0)" value="B">B) Em se tratando de impressos, o vermelho, o verde e o azul são cores primárias.<br>
+    <input type="radio" name="op3" onclick="verifica1(0)" value="C">C) A mistura do vermelho, verde e azul, em iguais quantidades, resulta na cor preta ou cinza-neutro, também conhecido como síntese subtrativa.<br>
+    <input type="radio" name="op4" onclick="verifica1(1)" value="D">D) A mistura do vermelho, azul e verde, em quantidades iguais, produz o branco, também conhecido
+    como síntese aditiva. <hr>
+    
+    
+    2) A propriedade CSS que possibilita posicionar um elemento qualquer é a “position”. Das afirmações que
+    seguem, sobre posicionamento em folhas de estilos, marque a opção INCORRETA.<br>
+    <input type="radio" name="op5" onclick="verifica2(1)" value="A">A) Qualquer unidade de medida CSS pode ser usada para definir as coordenadas, inclusive, medidas
+    relativas como, por exemplo, cm (centímetros).<br>
+    <input type="radio" name="op6" onclick="verifica2(0)" value="B">B) Usando essa técnica, pode-se posicionar um elemento HTML em qualquer lugar na tela do usuário,
+    tanto usando medidas absolutas como valendo-se de medidas relativas.<br>
+    <input type="radio" name="op7" onclick="verifica2(0)" value="C">C) A propriedade CSS que determina o afastamento em volta dos elementos é “margin”<br>
+    A propriedade CSS que determina o afastamento em volta dos elementos é “margin”.<br>
+    <input type="radio" name="op8" onclick="verifica2(0)" value="D">D) O valor “absolute” para a propriedade “position”, quando declarado para um elemento X, controla a
+    posição do elemento, tomando como origem do sistema de coordenadas o canto superior esquerdo
+    do primeiro box ancestral de X que tenha sido posicionado com os valores “fixed”, “relative” ou
+    “absolute”. Caso não exista um elemento ancestral posicionado, a origem do sistema de
+    coordenadas será o canto superior esquerdo da tela.<hr>
+   
+
+    3) Citam-se o RGB e o CMYK como os padrões mais conhecidos para a geração de cores. No primeiro
+    padrão, o R é o vermelho, G o verde e o B é o azul. Já no segundo padrão, o CMYK, utilizado
+    comumente nas impressoras das gráficas, a letra Y significa amarelo. As demais, C, M e K, referem-se,
+    respectivamente, às seguintes cores:<br>
+    <input type="radio" name="op9" onclick="verifica3(1)" value="A">A) ciano, magenta e preto.<br>
+    <input type="radio" name="op10" onclick="verifica3(0)" value="B">B) turquesa, fúcsia e preto.<br>
+    <input type="radio" name="op11" onclick="verifica3(0)" value="C">C) ciano, magenta e verde.<br>
+    <input type="radio" name="op12" onclick="verifica3(0)" value="D">D) turquesa, fúcsia e branco.<hr>
+    
+
+    4) Um dos padrões mais populares da internet, por aliar duas características importantes, oferece níveis
+    razoáveis de qualidade de imagem e gera arquivos de tamanho pequeno, quando comparado a outros
+    formatos, facilitando o seu armazenamento e a sua distribuição, além de ser capaz de trabalhar com
+    quase 16,8 milhões de cores (24 bits). Essa característica, aliada à capacidade de compressão que
+    reduz o tamanho dos arquivos, faz do formato uma excelente opção para a distribuição de imagens
+    fotográficas, tanto que o formato é muito utilizado para a geração de imagens em câmeras digitais. Isso
+    porque, mesmo havendo perda de qualidade, esta ocorre de maneira pouco ou nada perceptiva, desde
+    que, é claro, não haja "abuso" do uso de compressão nem salvamentos frequentes. O texto fala do formato<br>
+    <input type="radio" name="op13" onclick="verifica4(0)" value="A">A) GIF<br>
+    <input type="radio" name="op14" onclick="verifica4(0)" value="B">B) PNG<br>
+    <input type="radio" name="op15" onclick="verifica4(0)" value="C">C) BMP<br>
+    <input type="radio" name="op16" onclick="verifica4(1)" value="D">D) JPG<hr>
+
+    5) A usabilidade é geralmente considerada um fator que garante que produtos sejam fáceis de usar,
+    eficientes e agradáveis, do ponto de vista do usuário. Dessa forma, as interações estabelecidas pelas
+    pessoas com os produtos devem ser otimizadas, a fim de permitir que as atividades sejam realizadas
+    em qualquer local, seja no trabalho, na escola ou em casa. A respeito das metas da usabilidade, é
+    correto afirmar que o sistema deve ser <br>
+    <input type="radio" name="op17" onclick="verifica5(0)" value="A">A) produtivo, ou seja, se refere à capacidade que um sistema tem de produzir resultados efetivos.<br>
+    <input type="radio" name="op18" onclick="verifica5(1)" value="B">B) seguro no uso, ou seja, proteger o usuário de condições perigosas e situações indesejáveis.<br>
+    <input type="radio" name="op19" onclick="verifica5(0)" value="C">C) dinâmico, dando informações ao usuário com o mínimo de passos possíveis.<br>
+    <input type="radio" name="op20" onclick="verifica5(0)" value="D">D) interativo, ou seja, capaz de fornecer respostas exatas a partir das ações dos usuários. <hr>
+
+    6) No planejamento gráfico, faz-se necessário que a leitura de uma página seja feita de uma forma macro, 
+    a partir do todo (visualização). Para que a mensagem seja bem recebida pelo leitor, cada elemento 
+    possui uma função específica. Assim, o Designer precisa criar uma forma que se adeque às 
+    características de quem recebe a mensagem, ou seja, seu público alvo. Em um mercado no qual é 
+    grande a variedade do público e das publicações, faz-se necessário, cada vez mais, estudar o leitor. 
+    Dessa forma, existe uma série de teorias e técnicas para a criação de um projeto gráfico. Um dos 
+    princípios básicos do design é o(a)<br>
+    <input type="radio" name="op21" onclick="verifica6(1)" value="A">A) proximidade<br>
+    <input type="radio" name="op22" onclick="verifica6(0)" value="B">B) brilho<br>
+    <input type="radio" name="op23" onclick="verifica6(0)" value="C">C) ordenamento<br>
+    <input type="radio" name="op24" onclick="verifica6(0)" value="D">D) Bdistinção<hr>
+
+    7)  No Programa Adobe Photoshop, para selecionar dois ou mais objetos e deixá-los selecionados, 
+    simultaneamente, escolhe-se a ferramenta de seleção e, em seguida, pressiona-se a tecla ou conjunto 
+    de teclas para a realização da referida tarefa e clica-se nos objetos que se deseja selecionar. Marque a 
+    opção que aponta a tecla ou teclas utilizadas para a ação de seleção no Adobe Photoshop.<br>
+    <input type="radio" name="op25" onclick="verifica7(0)" value="A">A) CTRL<br>
+    <input type="radio" name="op26" onclick="verifica7(0)" value="B">B) SHIFT<br>
+    <input type="radio" name="op27" onclick="verifica7(1)" value="C">C) CTRL+SHIFT<br>
+    <input type="radio" name="op28" onclick="verifica7(0)" value="D">D) CTRL+ALT<hr>
+
+    8) Os "tipos de mídia" em CSS2 (Folhas de Estilo em Cascata Nível 2) permitem aos autores e aos 
+    usuários projetar folhas de estilo que renderizem os documentos de forma mais apropriada ao 
+    dispositivo utilizado. Essas folhas de estilo moldam os conteúdos para apresentação em dispositivos 
+    diversos. Em se tratando dos tipos de mídia, assinale a opção INCORRETA quanto à representação da 
+    mídia CSS2.<br>
+    <input type="radio" name="op29" onclick="verifica8(0)" value="A">A) Print<br>
+    <input type="radio" name="op30" onclick="verifica8(0)" value="B">B) Handheld<br>
+    <input type="radio" name="op31" onclick="verifica8(1)" value="C">C) Mobile<br>
+    <input type="radio" name="op32" onclick="verifica8(0)" value="D">D) Braile<hr>
+
+    9)  Através do XML, é possível ao programador criar seus próprios elementos de marcação e atributos para 
+    escrever seu documento Web. Isso significa que é esse profissional quem cria sua linguagem de 
+    marcação. XHTML foi criado dentro desse conceito e, por isso, é uma aplicação XML. As Tags e 
+    atributos da XHTML foram criados aproveitando-se as nossas conhecidas Tags e atributos da HTML e 
+    suas regras. Assinale a opção que descreve a diferença entre XHTML e HTML<br>
+    <input type="radio" name="op33" onclick="verifica9(0)" value="A">A) No HTML, o uso das Tags de fechamento é obrigatório e os elementos vazios devem ser fechados<br>
+    <input type="radio" name="op34" onclick="verifica9(0)" value="B">B) No XHTML, todas as Tags podem ser escritas em maiúsculas e os documentos devem ser bem 
+    formados<br>
+    <input type="radio" name="op35" onclick="verifica9(1)" value="C">C) No XHTML, todas as Tags devem ser escritas em letras minúsculas, além de estarem 
+    convenientemente aninhadas<br>
+    <input type="radio" name="op36" onclick="verifica9(0)" value="D">D) No HTML, as Tags não precisam ficar aninhadas, mas as Tags de fechamento são elementos 
+    indispensáveis<hr>
+
+    10) Em se tratando da Linguagem de Marcação de Hipertextos (HTML), com o passar do tempo, algumas
+    Tags (Etiquetas) passaram a não ser mais recomendadas. Assinale a opção que apresenta uma Tag
+    que se encontra em utilização e está de acordo com a W3C (World Wide Web Consortium).<br>
+    <input type="radio" name="op37" onclick="verifica10(0)" value="A">A) Background<br>
+    <input type="radio" name="op38" onclick="verifica10(0)" value="B">B) Language<br>
+    <input type="radio" name="op39" onclick="verifica10(1)" value="C">C) Optgroup<br>
+    <input type="radio" name="op40" onclick="verifica10(0)" value="D">D) Nowrap<hr>
+</body>
+
+</html>
